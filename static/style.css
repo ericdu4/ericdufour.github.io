@@ -7,6 +7,34 @@ body {
   padding: 0;
 }
 
+/* Full-width responsive banner */
+.site-banner {
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  background: #0b2740; /* fallback color while image loads */
+}
+
+.banner-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;      /* keeps aspect ratio while filling width */
+  object-position: center;
+  max-height: 320px;      /* tweak this to control visible banner height */
+}
+
+/* Larger header on wide screens */
+@media (min-width: 1200px) {
+  .banner-image { max-height: 420px; }
+}
+
+/* Smaller on phones */
+@media (max-width: 640px) {
+  .banner-image { max-height: 220px; }
+}
+
+
 /* === Header Styles === */
 .site-header {
   background-color: #1f2d3d;
@@ -195,3 +223,43 @@ h2.family {
   .main-nav { display: none; } /* optionally hide nav on small screens; replace with a hamburger if desired */
 }
 
+.cta-row {
+  width: 100%;
+  padding: 18px 0 8px;
+  display: flex;
+  justify-content: center;
+}
+
+.cta-inner {
+  display: inline-flex;
+  gap: 14px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 900px;
+}
+
+.btn {
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-weight: 700;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn.primary {
+  background: #0b8a7f;
+  color: #fff;
+  border: 1px solid #0b8a7f;
+}
+
+.btn.outline {
+  background: transparent;
+  color: #0b2740;
+  border: 1px solid rgba(11,39,64,0.12);
+}
+
+@media (max-width: 640px) {
+  .btn { min-width: 110px; padding: 9px 12px; font-size: 14px; }
+  .cta-inner { gap: 10px; }
+}
