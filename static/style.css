@@ -10,9 +10,9 @@ body {
 /* Full-width responsive banner */
 .site-banner {
   width: 100%;
-  display: block;
-  overflow: hidden;
-  background: #0b2740; /* fallback color while image loads */
+  padding: 18px 20px;
+  box-shadow: 0 2px 8px rgba(11,39,64,0.06);
+  background: linear-gradient(180deg, #f6fbff 0%, #eef7fb 100%); /* very light blue */
 }
 
 .banner-image {
@@ -331,3 +331,4 @@ h2.family {
   .banner-title { white-space: normal; font-size: 1.25rem; }
   .banner-text { width: 100%; }
 }
+
