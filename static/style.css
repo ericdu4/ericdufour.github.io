@@ -148,4 +148,46 @@ h2.family {
     opacity: 1;
     transform: scale(1) translateY(0);
   }
+
+}
+
+/* Banner layout */
+.site-banner {
+  background: linear-gradient(180deg, #0b2740 0%, #08323a 100%);
+  color: #fff;
+  padding: 12px 20px;
+}
+
+.banner-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center; /* vertical centering */
+  justify-content: space-between;
+  gap: 16px;
+}
+
+/* Logo styling */
+.logo-link {
+  display: inline-block;
+}
+.site-logo {
+  display: block;
+  width: 120px;        /* desktop default */
+  height: auto;
+  border-radius: 6px;  /* optional rounding */
+}
+
+/* Navigation */
+.main-nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 14px;
+  font-weight: 600;
+}
+
+/* Responsive: shrink logo on small screens */
+@media (max-width: 640px) {
+  .site-logo { width: 72px; }
+  .main-nav { display: none; } /* optionally hide nav on small screens; replace with a hamburger if desired */
 }
