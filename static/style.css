@@ -171,11 +171,14 @@ h2.family {
 .logo-link {
   display: inline-block;
 }
-.site-logo {
-  display: block;
-  width: 120px;        /* desktop default */
-  height: auto;
-  border-radius: 6px;  /* optional rounding */
+.site-logo { width: 120px; height: auto; border-radius: 6px; }
+
+@media (min-width: 900px) {
+  .site-logo { width: 200px; }        /* bigger on desktops */
+}
+
+@media (max-width: 640px) {
+  .site-logo { width: 80px; }         /* still small on phones */
 }
 
 /* Navigation */
@@ -191,3 +194,4 @@ h2.family {
   .site-logo { width: 72px; }
   .main-nav { display: none; } /* optionally hide nav on small screens; replace with a hamburger if desired */
 }
+
