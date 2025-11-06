@@ -1,0 +1,151 @@
+/* === Base Styles === */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f8;
+  color: #2c3e50;
+  margin: 0;
+  padding: 0;
+}
+
+/* === Header Styles === */
+.site-header {
+  background-color: #1f2d3d;
+  color: #ffffff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.site-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.site-header p.lead {
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #dcdcdc;
+  margin-bottom: 20px;
+}
+
+/* === Navigation Buttons === */
+.nav-buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.nav-buttons .btn {
+  border-radius: 30px;
+  font-weight: 500;
+  padding: 8px 20px;
+  transition: all 0.3s ease;
+}
+
+.nav-buttons .btn:hover {
+  background-color: #ffffff;
+  color: #1f2d3d;
+}
+
+/* === Section Styles === */
+section {
+  padding: 30px 20px;
+  border-bottom: 1px solid #ddd;
+  animation: fadeInUp 1s ease-out;
+}
+
+section h2 {
+  color: #34495e;
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+section ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+section p,
+section li {
+  font-size: 1em;
+  line-height: 1.6;
+}
+
+/* === Resume Link Styling === */
+a {
+  color: #2980b9;
+}
+
+a:hover {
+  color: #1abc9c;
+}
+
+/* === Hero Enhancements === */
+h1 {
+  font-size: 2.8em;
+  margin-bottom: 10px;
+}
+
+p.lead {
+  font-size: 1.3em;
+  line-height: 1.6;
+}
+
+/* === Welcome Heading === */
+h2.welcome {
+  font-size: 3em;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  color: #34495e;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  animation: fadeSlide 1s ease-out;
+}
+
+/* === Family Heading === */
+h2.family {
+  font-size: 1.8em;
+  color: #34495e;
+  margin-top: 20px;
+}
+
+/* === Contact Card Animation === */
+.contact-card {
+  animation: fadeIn 1s ease-out;
+  animation-delay: 0.5s;
+  animation-fill-mode: both;
+}
+
+/* === Animations === */
+@keyframes fadeSlide {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95) translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
