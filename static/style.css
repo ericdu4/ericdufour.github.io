@@ -30,7 +30,7 @@ body {
   margin: 0 auto;             /* centers the banner inner area on the page */
   display: flex;
   align-items: center;        /* vertical center of image and text */
-  gap: 24px;                  /* space between image and text (increase if needed) */
+  gap: 40px;                  /* space between image and text (increase if needed) */
   padding: 6px 20px;          /* breathing room left/right */
   justify-content: flex-start;/* keeps layout left-aligned inside centered container */
 }
@@ -393,5 +393,6 @@ h2.family {
   .banner-title { white-space: normal; font-size: 1.25rem; }
   .banner-text { width: 100%; }
 }
+
 
 
