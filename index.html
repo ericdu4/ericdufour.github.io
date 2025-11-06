@@ -10,20 +10,11 @@
 <body>
 
   <!-- Header -->
-  <header class="site-banner">
-  <div class="banner-inner">
-    <a href="index.html" class="logo-link" aria-label="Eric DuFour home">
-      <img src="static/d4-logo.png" alt="D4 logo — Dream Design Develop Deliver" class="site-logo">
-    </a>
-    <nav class="nav-buttons">
-      <a href="index.html" class="btn btn-outline-light me-2">Home</a>
-      <a href="projects.html" class="btn btn-outline-light me-2">Projects</a>
-      <a href="resume.html" class="btn btn-outline-light me-2">Resume</a>
-      <a href="contact.html" class="btn btn-outline-light">Contact</a>
-    </nav>
-  </div>
-</header>
+  <header class="site-banner" role="banner" aria-label="Eric DuFour banner">
+  <img src="static/d4-logo.png" alt="D4 — Dream Design Develop Deliver" class="banner-image">
+  </header>
 
+  
   <!-- Main Section -->
   <section style="background: linear-gradient(to bottom, #f4f6f8, #e6f7f4); padding: 30px 20px;">
     <div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
@@ -38,6 +29,15 @@
         <p>This site showcases my resume, data analytics experiments, and instructional design work — including unfinished projects that reflect my curiosity and growth mindset.</p>
       </div>
 
+              <!-- CTA Buttons -->
+        <div class="cta-row" aria-label="Primary actions">
+          <div class="cta-inner">
+            <a href="projects.html" class="btn primary">Projects</a>
+            <a href="resume.html" class="btn outline">Resume</a>
+            <a href="contact.html" class="btn outline">Contact</a>
+          </div>
+        </div>
+      
       <div style="display: flex; justify-content: center; width: 100%; margin-top: 20px;">
         <blockquote style="
           font-style: italic;
@@ -58,6 +58,7 @@
 </body>
 
 </html>
+
 
 
 
