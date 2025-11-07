@@ -515,11 +515,13 @@ h2.family {
 
 .contact-card {
   transition: box-shadow 0.3s ease;
+  background: linear-gradient(180deg, #e6f7fb, #d0ebf9);
 }
 
 .contact-card:hover {
   box-shadow: 0 6px 16px rgba(0,0,0,0.15);
 }
+
 
 
 
