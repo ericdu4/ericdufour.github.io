@@ -433,6 +433,85 @@ h2.family {
   opacity: 0.6;
 }
 
+.resume-section {
+  background: #f7fbfc;
+  padding: 48px 20px;
+}
+
+.resume-inner {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #0b2740;
+  margin-bottom: 24px;
+}
+
+.resume-summary {
+  font-size: 1rem;
+  color: #374151;
+  line-height: 1.6;
+  margin-bottom: 32px;
+}
+
+.resume-category h3 {
+  font-size: 1.3rem;
+  color: #0a6f6f;
+  margin-top: 24px;
+}
+
+.resume-category ul,
+.resume-role ul,
+.resume-list {
+  padding-left: 20px;
+  margin-bottom: 16px;
+}
+
+.resume-category li,
+.resume-role li,
+.resume-list li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+  color: #374151;
+}
+
+.resume-role h4 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-top: 24px;
+  color: #0b2740;
+}
+
+.date-range {
+  font-weight: 400;
+  color: #6b7280;
+  font-size: 0.95rem;
+  margin-left: 8px;
+}
+
+.resume-note {
+  font-style: italic;
+  color: #555;
+  margin-top: 12px;
+}
+
+.resume-articles ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.resume-articles li {
+  margin-bottom: 12px;
+}
+
+.resume-articles a {
+  color: #0b2740;
+  text-decoration: underline;
+  font-weight: 600;
+}
 
 
 
