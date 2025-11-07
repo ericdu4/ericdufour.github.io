@@ -515,7 +515,7 @@ h2.family {
 
 .contact-card {
   transition: box-shadow 0.3s ease;
-  background: #191945;
+  background: #1f2d3d;
 }
 
 .contact-card:hover {
@@ -630,6 +630,7 @@ h2.family {
   color: #374151;
   line-height: 1.6;
 }
+
 
 
 
