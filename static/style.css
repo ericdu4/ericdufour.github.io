@@ -367,6 +367,34 @@ h2.family {
   .banner-text { width: 100%; }
 }
 
+.project-card {
+  background: #f9fcfd;
+  border: 1px solid #e0f2f1;
+  padding: 24px;
+  margin-bottom: 32px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.project-card h2 {
+  margin-top: 0;
+  color: #0b2740;
+}
+
+.project-card p {
+  color: #374151;
+  margin-bottom: 12px;
+}
+
+.project-card .btn {
+  text-decoration: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-weight: 700;
+  background: #0b8a7f;
+  color: #fff;
+  border: none;
+}
 
 
 
