@@ -641,6 +641,13 @@ h2.family {
   text-decoration: underline;
 }
 
+.contact-card {
+  max-width: 500px;
+  padding: 16px;
+  margin: 0 auto;
+  gap: 16px;
+}
+
 
 
 
