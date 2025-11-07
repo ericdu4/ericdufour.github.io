@@ -7,68 +7,6 @@ body {
   padding: 0;
 }
 
-/* Banner shell: keep centered content and allow space for left logo */
-.site-banner {
-  position: relative;
-  width: 100%;
-  padding: 36px 20px;         /* vertical padding; horizontal controlled below */
-  box-sizing: border-box;
-  background: linear-gradient(180deg,#f6fbff 0%,#eef7fb 100%);
-  overflow: visible;
-}
-
-/* Centered inner content column */
-.banner-inner {
-  max-width: 1100px;
-  margin: 0 auto;             /* centers the content on the page */
-  display: block;
-  text-align: center;         /* center the banner text */
-  padding: 0 20px;            /* breathing room inside centered column */
-}
-
-/* Make logo sit flush left of the viewport and vertically centered in the banner */
-.banner-logo-link {
-  position: absolute;
-  left: 19px;                 /* distance from left edge of viewport */
-  top: 50%;
-  transform: translateY(-50%);
-  display: block;
-  z-index: 10;
-}
-
-/* Logo size (adjust as needed) */
-.banner-image {
-  width: 170px;
-  height: 170px;
-  object-fit: cover;
-  border-radius: 8px;
-  display: block;
-}
-
-/* Banner text styling (stays centered inside the centered column) */
-.banner-text {
-  margin: 0 auto;
-  max-width: 820px;
-}
-
-/* Responsive: on small screens, place logo inline above the centered text */
-@media (max-width: 760px) {
-  .banner-logo-link {
-    position: static;
-    transform: none;
-    margin-bottom: 12px;
-    display: inline-block;
-  }
-  .banner-inner {
-    text-align: center;
-    padding: 12px 16px;
-  }
-  .banner-image {
-    width: 110px;
-    height: 110px;
-  }
-}
-
 /* === Header Styles === */
 .site-header {
   background-color: #1f2d3d;
@@ -654,6 +592,7 @@ h2.family {
     text-align: center;
   }
 }
+
 
 
 
